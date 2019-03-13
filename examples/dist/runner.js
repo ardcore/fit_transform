@@ -427,9 +427,9 @@
 
 	const drawIndex = (context, text, x, y, color) => {
 	  context.fillStyle = color;
-	  context.font = "10px monospace";
+	  context.font = "14px monospace";
 	  context.scale(1, -1);
-	  context.fillText(text, Math.round(x), -(Math.round(y - 15)));
+	  context.fillText(text, Math.round(x - 4), -(Math.round(y - 20)));
 	  context.scale(1, -1);
 	};
 

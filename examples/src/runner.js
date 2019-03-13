@@ -1,5 +1,5 @@
 import { fitTransform } from "../../src/index.js";
-import { render } from "../../src/utils/renderer.js";
+import { render } from "./renderer.js";
 import { sanitize, desanitize } from "./sanitize.js";
 
 const CANVAS_WIDTH = 400;
