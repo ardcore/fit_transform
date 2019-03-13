@@ -2,7 +2,7 @@
 
 ## Problem
 
-_Given a corresponding sets of 2D points A and B, find and apply an optimal transformation matrix to bring set A [as close as possible](https://en.wikipedia.org/wiki/Root-mean-square_deviation) to set B._
+_Given two corresponding sets of 2D points A and B, find and apply an optimal transformation matrix to bring set A [as close as possible](https://en.wikipedia.org/wiki/Root-mean-square_deviation) to set B._
 
 ## Solution
 
