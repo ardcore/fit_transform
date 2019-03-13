@@ -11,13 +11,16 @@ _Given a corresponding sets of 2D points A and B, find and apply an optimal tran
 - this implementation focuses on 2D points only, but can be easily
   generalised to support more dimensions
 
-
 ## API
 
   - `fitTransform(A, B) -> A'` -- returns a transformed dataset
   - `kabsch(A, B) -> C` -- returns an optimal rotation matrix
 
-## Installing and Testing
+## Installation
+
+    npm install fit_transform
+
+## Building and Testing
 
     yarn
     yarn build
