@@ -1,7 +1,7 @@
 {
   "name": "fit_transform",
   "version": "0.0.6",
-  "description": "find and apply optimal transformation matrix between datasets",
+  "description": "Calculate and apply the optimal transformation matrix that minimizes the RMSD (root mean squared deviation) between two paired sets of points.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "browser": "dist/index.umd.js",
@@ -12,7 +12,16 @@
     "test": "tape spec/**/*.js"
   },
   "author": "Szymon Pilkowski <ard@dreamtigers.io>",
+  "repository": "https://github.com/ardcore/fit_transform",
+  "bugs": "https://github.com/ardcore/fit_transform/issues",
   "license": "MPL2",
+  "keywords": [
+    "kabsch",
+    "rmsd",
+    "chemistry",
+    "cheminformatics",
+    "molecule"
+  ],
   "dependencies": {
     "svd-finder": "^0.2.3"
   },
