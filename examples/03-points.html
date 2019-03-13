@@ -1,0 +1,29 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title></title>
+  <script src="./dist/runner.js"></script>
+  <style>
+    canvas {
+      border: 1px solid green;
+    }
+  </style>
+</head>
+<body>
+  <canvas width="400" height="400" id="canvas1" />
+  <script charset="utf-8">
+    const m1 = {
+      "a": [0, 0],
+      "b": [10, 0],
+      "c": [0, 10]
+    }
+
+    const m2 = {
+      "a": [-10, -10],
+      "b": [-30, -10],
+      "c": [-10, -30]
+    }
+    example.runner(m1, m2);
+  </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "fit_transform",
+  "version": "0.0.2",
+  "description": "find and apply optimal transformation matrix between datasets",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build",
+    "test": "tape spec/**/*.js"
+  },
+  "author": "Szymon Pilkowski <szymon.pilkowski@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "svd-finder": "^0.2.3"
+  },
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.2",
+    "@babel/core": "^7.2.2",
+    "babel": "^6.23.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  }
+}
